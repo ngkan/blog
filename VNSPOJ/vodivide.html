@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> ngkan146 and his blog </title>
+  <link href="https://i.imgur.com/cP5Khe1.png" rel="shortcut icon" type="image/x-icon">
+
+  <style>
+    body{
+      background: #ccf5ff;
+    }
+  </style>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+  <script type="text/javascript">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'] ],
+        displayMath: [ ['$$','$$'] ],
+        processEscape: true
+      }
+    });
+  </script>
+  <!--> <!-->
+</head>
+<body background-color = "#ccf5ff">
+  <h2><a href="http://vn.spoj.com/problems/VODIVIDE"> VODIVIDE</a></h2>
+  Không dài dòng, ta đi vào chi tiết lời giải bài toán.<br><br>
+  Sau khi sort lại các đồng xu theo thứ thự $a_i$ giảm dần, nếu coi các đồng
+  xu Vinh lấy là dấu '(', còn đồng xu Sơn lấy là dấu ')', thì dãy ngoặc ta thu
+  được luôn là dãy ngoặc đúng và với mọi dãy ngoặc đúng thì luôn tồn tại cách
+  chơi tương ứng.<br><br>
+  Bài toán chuyển về cho dãy $b_1$, $b_2$, ..., $b_n$, tìm một dãy ngoặc đúng độ
+  dài n sao cho tổng giá trị của các ngoặc đóng là lớn nhất.<br><br>
+  Đến đây, ta chỉ việc quy hoạch động $dp[i][j]$ là đến vị trí i, đã đặt j ngoặc
+  đóng. Lưu ý phải thỏa mãn điều kiện dãy ngoặc đúng.<br><br>
+  Thuật toán QHĐ trên có độ phức tạp $O(n^2)$, nhưng ta có thể sử dụng thuật
+  toán tham lam để giảm độ phức tạp xuống $O(n \log n)$.<br><br>
+  http://www.spoj.com/problems/QTDIVIDE/<br>
+  http://codeforces.com/gym/100956 problem D.<br><br>
+
+  <div id="disqus_thread"></div>
+  <script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://https-ngkan146-github-io.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <script id="dsq-count-scr" src="//https-ngkan146-github-io.disqus.com/count.js" async></script>
+
+<body>
