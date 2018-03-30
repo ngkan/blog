@@ -1,2 +1,4 @@
 # ngkan146.github.io
-My blog
+Personal blog.
+
+Blog cá nhân, mình thích thì mình viết thôi.
