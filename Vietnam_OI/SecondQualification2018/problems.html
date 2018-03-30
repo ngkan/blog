@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> ngkan146 and his blog </title>
+  <link rel="icon" href="">
+  <link href="https://i.imgur.com/cP5Khe1.png" rel="shortcut icon" type="image/x-icon">
+
+  <style>
+    body{
+      background: #ccf5ff;
+    }
+  </style>
+  <!--> <!-->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+  <script type="text/javascript">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'] ],
+        displayMath: [ ['$$','$$'] ],
+        processEscape: true
+      }
+    });
+  </script>
+  <!--> <!-->
+</head>
+<body>
+  <h1 class="heading"> Đề bài </h1>
+
+  <h2>  Ngày 1 </h2>
+  TL: $0.5s$  <br>
+  ML: $512Mb$ <br>
+
+  <h4> Bài 1 </h4>
+  Cho mảng vòng tròn $N$ phần tử đánh số từ $1$ đến $N$. Bạn đứng tại ô $1$.<br>
+  Mỗi bước bạn <b>phải</b> đi sang một trong hai ô kề với ô đang đứng.<br>
+  Có bao nhiêu cách đi đúng $K$ bước mà sau $K$ bước bạn đứng ở ô $1$? <br>
+  In ra kết quả $mod 10^9+7$.<br>
+  <br>
+  Mỗi file có $1$ test.
+  Giới hạn:<br>
+  $N \leq 4000$ <br>
+  $K \leq 10^6$ <br>
+
+  <h4> Bài 2 </h4>
+  Cho cái cây $N$ đỉnh. Mỗi đỉnh được tô một trong 2 màu xanh, đỏ. <br>
+  Thao tác flip đỉnh $u$ là đổi màu của đinh $u$ và các đỉnh kề với $u$ (xanh -> đỏ và đỏ -> xanh). <br>
+  Liệu có thể biến cả cây thành màu xanh? <br>
+  Có truy vết. <br>
+  <br>
+  Giới hạn:<br>
+  Mỗi file có $500$ test.<br>
+  $N \leq 3000$.<br>
+
+  <h4> Bài 3 </h4>
+  Cho một đường tròn trên mặt phẳng và $N$ đường thẳng có dạng $ax + by = c$. <br>
+  Với mỗi đường thẳng, xét giao của nó với đường tròn (không giao thì không quan tâm).<br>
+  Giả sử đường thẳng giao đường tròn tại $P_1$ và $P_2$ thì gọi cung ứng với đường thẳng là
+  cung nhỏ hơn giữa hai cung $P_1 P_2$ và $P_2 P_1$.<br>
+  (Đảm bảo không có đường thẳng đi qua tâm đường tròn và không có 2 đường thẳng nào cắt nhau trên
+  đường tròn)<br>
+  Bây giờ ta coi các cung vừa tạo là một đỉnh của đồ thị. <br>
+  Hai đỉnh có cạnh khi và chỉ khi hai cung tương ứng có điểm chung. <br>
+  Xét hai cạnh trên đồ thị.<br>
+  Giữa hai cạnh $e$, $f$ có đường đi độ dài $d$ khi tồn tại dãy cạnh $e$, $w_1$, $w_2$, ..., $w_d$, $f$ và các cạnh
+  liên tiếp trong dãy có đỉnh chung. <br>
+  Một tập cạnh con của đồ thị được gọi là đẹp nếu giữa hai cạnh bất kì trong tập, hoặc
+  không có đường đi giữa chúng trên đồ thị ban đầu hoặc đường đi ngắn nhất giữa chúng trên đồ thị
+  ban đầu $\geq 2$.<br>
+  Ta quan tâm đến tập cạnh đẹp có nhiều cạnh nhất.<br>
+  In ra số cạnh nhiều nhất có thể. <br>
+  <br>
+  Giới hạn:<br>
+  Mỗi file có $10$ test.<br>
+  Các sub: <br>
+  Các số trong bài đều nguyên và có trị tuyệt đối $\leq 10^9$<br>
+  $N \leq 10$.<br>
+  $N \leq 50$.<br>
+  $N \leq 500$.<br>
+  $N \leq 50000$.<br>
+
+  <h4> Bài 4 </h4>
+  Ban đầu bạn có một mảng.<br>
+  Có hai truy vấn:<br>
+  Loại 1: Thêm phần tử vào mảng đã cho. <br>
+  Loại 2: Xét mảng đã cho sau khi sort bé -> lớn, ta cần in ra tổng của K phần tử chỉ định. Các phần tử này được tạo như sau:<br>
+  Cho $4$ số K, F, A, B, ta cần tính sum của các phần tử có $id$ sau:<br>
+  $id_1$ = F $mod$ (size của mảng hiện tại)<br>
+  $id_i$ = ($id_{i-1} \times A + B$) $mod$ (size của mảng hiện tại)<br>
+  <br>
+  Giới hạn:<br>
+  Mỗi file có $5$ test.
+  $N \leq 10^5$<br>
+  $Q \leq 20000$<br>
+  $K \leq 10^4$<br>
+  $F,A,B \leq 10^3$<br>
+
+  <h2>  Ngày 2 </h2>
+  <h4> Bài 5 </h4>
+  <h4> Bài 6 </h4>
+  <h4> Bài 7 </h4>
+  <h4> Bài 8 </h4>
+  <div id="disqus_thread"></div>
+  <script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://https-ngkan146-github-io.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <script id="dsq-count-scr" src="//https-ngkan146-github-io.disqus.com/count.js" async></script>
+</body>
+</html>
