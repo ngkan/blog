@@ -96,10 +96,60 @@
   $F,A,B \leq 10^3$<br>
 
   <h2>  Ngày 2 </h2>
-  <h4> Bài 5 </h4>
-  <h4> Bài 6 </h4>
-  <h4> Bài 7 </h4>
-  <h4> Bài 8 </h4>
+  <h4> Bài 5 (TL: $0.2s$)</h4>
+  Bạn có một code chặt nhị phân để tìm một số trên mảng đã sort như nhau:
+  <pre><code>
+  int binary_search(vector &lt;int&gt; &a, int key){
+    int l = 0, r = a.size() - 1;
+    while (l <= r){
+      int mid = (l + r + 1) / 2;
+      if (a[mid] == key)
+        return mid;
+      if (a[mid] < key)
+        l = mid + 1;
+      else
+        r = mid - 1;
+    }
+    return -1;
+  }</code></pre>
+  Bạn nhận ra hàm trên có thể đúng với cả mảng không sort.  <br>
+  Cho $N$ và key. Đếm số hoán vị từ $1$ đến $N$ mà hàm đã cho chỉ ra đúng vị trí của key. <br>
+  <br>
+  Giới hạn: <br>
+  $N \leq 10^5$ <br>
+  <h4> Bài 6 (TL: $0.5s$)</h4>
+  Ban đầu bạn có một tập rỗng. <br>
+  Có hai truy vấn: <br>
+  - Thêm một điểm trên mặt phẳng 2D vào tập. Đảm bảo điểm này có hoành độ lớn hơn tất cả các điểm trong tập hiện tại. <br>
+  - Xóa đi k điểm có hoành độ lớn nhất. <br>
+  Sau mỗi truy vấn, bạn phải in ra diện tích của bao lồi của tập điểm. <br>
+  Xử lý online (dùng kết quả của truy vấn trước để xác định yêu cầu của truy vấn sau). <br>
+  <br>
+  Giới hạn: <br>
+  Số truy vấn $\leq 10^5$.
+  <h4> Bài 7 (TL: $1.0s$)</h4>
+  Bạn có một lưới tổ ong $N$ lớp được đánh số xoay vòng. Sau đây là hình minh họa lưới $2$ lớp: <br>
+  <img src="hexagon.png" atl="Hình minh họa" width="20%" height="20%"> <br>
+  Có thể thấy, hình có $N$ lớp (không tính ô ở giữa) thì có $3 \times N \times (N+1) + 1$ ô. <br>
+  Bạn có $M$ vật trên lưới và cần di chuyển đến $M$ địa điểm được chỉ định (vật nào đứng ô nào cũng được).<br>
+  Một bước di chuyển là chuyển một vật sang các ô kề cạnh mà không có vật nào khác. <br>
+  Tính số bước di chuyển tối thiểu.<br>
+  <br>
+  Mỗi file có $5$ test.<br>
+  Giới hạn: <br>
+  $N \leq 50$.
+
+  <h4> Bài 8 (TL: $1.0s$)</h4>
+  Đây là bài interactive.<br>
+  Bạn và bạn bạn chơi một trò chơi.<br>
+  Họ có một đa giác lồi $N$ đỉnh và một vài đường chéo bên trong nó.<br>
+  Đảm bảo các đường chéo không cắt nhau và không tạo được các tam giác từ các đường chéo và cạnh của đa giác. <br>
+  Đến lượt ai, người đó phải vẽ thêm một đường chéo của đa giác mà đa giác vẫn thỏa mãn tính chất trên. <br>
+  Ai không vẽ được nữa thì thua. <br>
+  Bạn được quyền chọn đi trước hoặc sau. Hãy chơi sao cho bạn thắng. <br>
+  <br>
+  Giới hạn: <br>
+  $N \leq 10^5$.
   <div id="disqus_thread"></div>
   <script>
     /**
