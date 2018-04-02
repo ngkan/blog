@@ -1,0 +1,75 @@
+body{
+  background:  #e6eeff;
+  font-family: sans-serif;
+}
+.heading{
+  text-align: center;
+  color: #0044cc;
+}
+a.heading{
+  color: inherit;
+  text-decoration: none;
+}
+a.heading:hover{
+  background-color: #e6e6ff;
+}
+a.heading:active{
+  background-color: transparent;
+  color: #6666ff;
+}
+.subHeading{
+  border-left: solid;
+  border-left-width: 5px;
+  border-left-color: #4747d1;
+  padding: 5px;
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #8585ad;
+}
+div.top_menu{
+  font-family: monospace;
+  font-size: 24px;
+
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: #000080;
+}
+div.menu_entry{
+  padding: 5px 10px 5px 10px;
+  display:inline;
+  color: #000080;
+}
+a.menu_entry{
+  text-decoration: none;
+  color: inherit;
+}
+a.menu_entry:hover{
+  background-color: #e6e6ff;
+}
+a.menu_entry:active{
+  background-color: transparent;
+  color: #6666ff;
+}
+a.contents_entry{
+  text-decoration: none;
+  color: #6600ff;
+}
+a.contents_entry:hover{
+  background-color: #e6e6ff;
+}
+a.contents_entry:active{
+  background-color: transparent;
+  color: #6666ff;
+}
+div.wrapper{
+  margin:0 auto;
+  width: 1000px;
+}
+li.contents_entry{
+  margin: 5px;
+}
+img.vodich{
+  width: auto;
+  height: 221px;
+}

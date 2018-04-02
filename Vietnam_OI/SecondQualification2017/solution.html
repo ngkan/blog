@@ -2,15 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title> ngkan146 and his blog </title>
-  <link rel="icon" href="">
-  <link href="https://i.imgur.com/cP5Khe1.png" rel="shortcut icon" type="image/x-icon">
+  <title> ngkan146 and his web </title>
+  <link rel="stylesheet" href="../../styles.css">
 
-  <style>
-    body{
-      background: #ccf5ff;
-    }
-  </style>
   <!--> <!-->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'></script>
   <script type="text/javascript">
@@ -24,66 +18,75 @@
   </script>
   <!--> <!-->
 </head>
+
 <body>
-  <h1 class="heading"> Lời giải </h1>
+  <h1 class="heading"><a class="heading" href="../../index.html">ngkan146.github.io</a></h1>
+  <div class="wrapper">
+    <div class="top_menu">
+      <div class="menu_entry"><a class="menu_entry" href="../../Myself/index.html">About</a></div>
+      <div class="menu_entry"><a class="menu_entry" href="../../Blog/index.html">Blog</a></div>
+      <div class="menu_entry"> <strike>Code</strike> </div>
+    </div>
+    <h1 class="subHeading"> Lời giải </h1>
 
-  <h2>  Ngày 1 </h2>
-  <h4> Bài 1 </h4>
-  Thay vì biến dãy $A$ thành dãy $B$, ta biến dãy $B$ thành dãy $A$.<br>
-  Thao tác bây giờ là chia cả dãy và cộng một số.<br>
-  Xét sub bé, $M = 2$.<br>
-  Ta nhận thấy là luôn chia 2 mọi lúc có thể (dễ dàng chứng minh). <br>
-  Vậy thuật toán là <b>while</b> tồn tại một phần tử của dãy $B > A$, tăng cả dãy
-  $B$ thành bội của 2 nhỏ nhất mà $\geq$ nó, sau đó chia 2 cả dãy. <br>
-  Quay lại sub lớn. <br>
-  Ta thấy có nhiều cách chọn chia cả dãy nên tạo ra nhiều điều kiện khó xử lý.<br>
-  Nhưng thực ra, thực hiện các phép chia theo thứ tự nào cũng cho ra một kết quả như nhau. <br>
-  Vậy ta backtrack các phép chia. <br>
-  (còn sol khác).
+    <h2>  Ngày 1 </h2>
+    <h4> Bài 1 </h4>
+    Thay vì biến dãy $A$ thành dãy $B$, ta biến dãy $B$ thành dãy $A$.<br>
+    Thao tác bây giờ là chia cả dãy và cộng một số.<br>
+    Xét sub bé, $M = 2$.<br>
+    Ta nhận thấy là luôn chia 2 mọi lúc có thể (dễ dàng chứng minh). <br>
+    Vậy thuật toán là <b>while</b> tồn tại một phần tử của dãy $B > A$, tăng cả dãy
+    $B$ thành bội của 2 nhỏ nhất mà $\geq$ nó, sau đó chia 2 cả dãy. <br>
+    Quay lại sub lớn. <br>
+    Ta thấy có nhiều cách chọn chia cả dãy nên tạo ra nhiều điều kiện khó xử lý.<br>
+    Nhưng thực ra, thực hiện các phép chia theo thứ tự nào cũng cho ra một kết quả như nhau. <br>
+    Vậy ta backtrack các phép chia. <br>
+    (còn sol khác).
 
-  <h4> Bài 2 </h4>
-  DP sử dụng Knuth Optimization.
+    <h4> Bài 2 </h4>
+    DP sử dụng Knuth Optimization.
 
-  <h4> Bài 3 </h4>
-  Sub bé backtrack sub lớn tham.
+    <h4> Bài 3 </h4>
+    Sub bé backtrack sub lớn tham.
 
-  <h4> Bài 4 </h4>
-  Chia căn.
+    <h4> Bài 4 </h4>
+    Chia căn.
 
-  <h2>  Ngày 2 </h2>
-  <h4> Bài 5 </h4>
-  Dưới điều kiện đã cho, dễ thấy có thể swap 2 ô tùy ý. <br>
-  Gọi $a_i$ là số ô có màu $i$. <br>
-  Nếu tồn tại cách ghép các $a_i$ thành $M$ cặp sao cho tổng của mỗi cặp $= N$ thì đáp án là 2. <br>
-  Ngược lại, đáp án là 3. (có thể chỉ ra một cách tham).
+    <h2>  Ngày 2 </h2>
+    <h4> Bài 5 </h4>
+    Dưới điều kiện đã cho, dễ thấy có thể swap 2 ô tùy ý. <br>
+    Gọi $a_i$ là số ô có màu $i$. <br>
+    Nếu tồn tại cách ghép các $a_i$ thành $M$ cặp sao cho tổng của mỗi cặp $= N$ thì đáp án là 2. <br>
+    Ngược lại, đáp án là 3. (có thể chỉ ra một cách tham).
 
-  <h4> Bài 6 </h4>
-  Dựng cạnh ảo sau đó chạy thuật toán tìm chu trình Euler.
+    <h4> Bài 6 </h4>
+    Dựng cạnh ảo sau đó chạy thuật toán tìm chu trình Euler.
 
-  <h4> Bài 7 </h4>
-  Tịnh tiến Segment tree (?)
+    <h4> Bài 7 </h4>
+    Tịnh tiến Segment tree (?)
 
-  <h4> Bài 8 </h4>
-  Xây cây segment tree , nút id lưu max của range.
-  <div id="disqus_thread"></div>
-  <script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-      var d = document, s = d.createElement('script');
-      s.src = 'https://https-ngkan146-github-io.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-    })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  <script id="dsq-count-scr" src="//https-ngkan146-github-io.disqus.com/count.js" async></script>
+    <h4> Bài 8 </h4>
+    Xây cây segment tree , nút id lưu max của range.
+    <div id="disqus_thread"></div>
+    <script>
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://https-ngkan146-github-io.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <script id="dsq-count-scr" src="//https-ngkan146-github-io.disqus.com/count.js" async></script>
+  </div>
 </body>
 </html>
