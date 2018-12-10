@@ -27,11 +27,40 @@
       <div class="menu_entry"><a class="menu_entry" href="../Blog/index.html">Blog</a></div>
       <div class="menu_entry"> <strike>Code</strike> </div>
     </div>
+    <h2 class="subHeading"> Rotating calipers </a></h2> 
+    
+    Tên của thuật toán đến từ ý tưởng của chính nó: xoay calipers xung quanh đa giác lồi.
+    <br><br>
+    Mỗi khi một cạnh của thước trùng với cạnh của đa giác, 2 điểm của đỉnh nằm trên 2 cạnh 
+    sẽ tạo thành một antipodal pair. Sau khi xoay một vòng, ta sẽ thu được tất cả antipodal 
+    pairs của đa giác. (một antipodals pair của đa giác lồi là một cặp đỉnh của đa giác sao 
+    cho tồn tại hai đường thẳng song song đi qua chúng và không cắt đa giác).
+    <br><br>
+    Một trong các cách cài đặt đem lại sự hiệu quả trong tốc độ và chi phí code là thuật 
+    toán Shamos: 
+    <br>  
+    Giả sử các đỉnh của đa giác đã được xếp theo thứ tự ngược chiều kim đồng hồ và được 
+    chứa trong mảng $P$. Xuất phát từ đỉnh $A = 0$, trước hết ta tìm đỉnh $B$ có thứ tự lớn nhất 
+    theo chiều ngược kim đồng hồ mà góc tạo bởi $\overrightarrow{P_A  P_{A+1}}$ và 
+    $\overrightarrow{P_B  P_{B+1}}$ không vượt quá 180 độ, hay tích chéo giữa hai vector 
+    mang giá trị không âm (*).
+    $P_B$ cùng với $P_A$ chắc chắn tạo thành một antipodal pair. 
+    Tiếp theo, để tìm kết quả cho $A+1$, ta chỉ việc tăng $B$ đến $B'$ lớn nhất có thể mà
+    vẫn giữ được tính chất (*), khi đó $P_{A+1}$ và $P_{B'}$ cũng là một antipodal pair... 
+    Độ phức tạp của thuật toán là O(n).
 
-    <h2 class="subHeading"> Rotating calipers </a></h2>
-    Trong CP, ta hay dùng rotating calipers để tìm hai điểm có khoảng cách lớn
-    nhất trong một đa giác lồi. <br><br>
-
+    <pre><code>
+    int a = 0, b = 0;
+    for (;a < n; a++){
+      while(góc của 2 vector theo chiều ngược kim đồng hồ <= 180 độ) 
+        b = (b+1) % n; 
+      // a và b tạo thành một antipodal pair
+      // Lưu ý xử lý trường hợp các cạnh song song  
+    }
+    </code></pre>
+    Bây giờ ta sẽ xem ứng dụng đơn giản nhất của thuật toán này.
+       
+    
     <div id="disqus_thread"></div>
     <script>
       /**
