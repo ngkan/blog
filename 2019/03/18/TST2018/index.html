@@ -7,19 +7,19 @@
   
   <title>VN TST 2018 | Ngkan&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Problems and solutions of Vietnam Team Selection Test 2018 (in Vietnamese ofc ).">
+  <meta name="description" content="Problems of Vietnam Team Selection Test 2018 (in Vietnamese ofc).">
 <meta name="keywords" content="2018,VNOI,TST">
 <meta property="og:type" content="article">
 <meta property="og:title" content="VN TST 2018">
 <meta property="og:url" content="http://ngkan146.github.io/2019/03/18/TST2018/index.html">
 <meta property="og:site_name" content="Ngkan&#39;s Blog">
-<meta property="og:description" content="Problems and solutions of Vietnam Team Selection Test 2018 (in Vietnamese ofc ).">
+<meta property="og:description" content="Problems of Vietnam Team Selection Test 2018 (in Vietnamese ofc).">
 <meta property="og:locale" content="Vietnamese English">
 <meta property="og:image" content="http://ngkan146.github.io/2019/03/18/TST2018/hexagon.png">
-<meta property="og:updated_time" content="2019-03-18T07:49:57.782Z">
+<meta property="og:updated_time" content="2019-03-18T08:31:32.109Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="VN TST 2018">
-<meta name="twitter:description" content="Problems and solutions of Vietnam Team Selection Test 2018 (in Vietnamese ofc ).">
+<meta name="twitter:description" content="Problems of Vietnam Team Selection Test 2018 (in Vietnamese ofc).">
 <meta name="twitter:image" content="http://ngkan146.github.io/2019/03/18/TST2018/hexagon.png">
   
     <link rel="alternate" href="/atom.xml" title="Ngkan&#39;s Blog" type="application/atom+xml">
@@ -97,8 +97,9 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Problems and solutions of Vietnam Team Selection Test 2018 (in Vietnamese ofc ).</p>
+        <p>Problems of Vietnam Team Selection Test 2018 (in Vietnamese ofc).</p>
 <a id="more"></a>
+<p></p><h1> Đề bài </h1><p></p>
 <p></p><h2>  Ngày 1 </h2><br>TL: $0.5s$  <br><br>ML: $512Mb$ <br><p></p>
 <p></p><h4> Bài 1 </h4><br>Cho mảng vòng tròn $N$ phần tử đánh số từ $1$ đến $N$. Bạn đứng tại ô $1$.<br><br>Mỗi bước bạn <b>phải</b> đi sang một trong hai ô kề với ô đang đứng.<br><br>Có bao nhiêu cách đi đúng $K$ bước mà sau $K$ bước bạn đứng ở ô $1$? <br><br>In ra kết quả $mod 10^9+7$.<br><br><br><br>Mỗi file có $1$ test.<br><br>Giới hạn:<br><br>$N \leq 4000$ <br><br>$K \leq 10^6$ <br><p></p>
 <p></p><h4> Bài 2 </h4><br>Cho cái cây $N$ đỉnh. Mỗi đỉnh được tô một trong 2 màu xanh, đỏ. <br><br>Thao tác flip đỉnh $u$ là đổi màu của đinh $u$ và các đỉnh kề với $u$ (xanh -&gt; đỏ và đỏ -&gt; xanh). <br><br>Liệu có thể biến cả cây thành màu xanh? <br><br>Có truy vết. <br><br><br><br>Giới hạn:<br><br>Mỗi file có $500$ test.<br><br>$N \leq 3000$.<br><p></p>
@@ -115,11 +116,12 @@
 <p>Sau mỗi truy vấn, bạn phải in ra diện tích của bao lồi của tập điểm. <br><br>Xử lý online (dùng kết quả của truy vấn trước để xác định yêu cầu của truy vấn sau). <br><br><br><br>Giới hạn: <br><br>Số truy vấn $\leq 10^5$.</p>
 <p></p><h4> Bài 7 (TL: $1.0s$)</h4><br>Bạn có một lưới tổ ong $N$ lớp được đánh số xoay vòng. Sau đây là hình minh họa lưới $2$ lớp: <br><br><img src="hexagon.png" atl="Hình minh họa" width="40%" height="40%"> <br><br>Có thể thấy, hình có $N$ lớp (không tính ô ở giữa) thì có $3 \times N \times (N+1) + 1$ ô. <br><br>Bạn có $M$ vật trên lưới và cần di chuyển đến $M$ địa điểm được chỉ định (vật nào đứng ô nào cũng được).<br><br>Một bước di chuyển là chuyển một vật sang các ô kề cạnh mà không có vật nào khác. <br><br>Tính số bước di chuyển tối thiểu.<br><br><br><br>Mỗi file có $5$ test.<br><br>Giới hạn: <br><br>$N \leq 50$.<p></p>
 <p></p><h4> Bài 8 (TL: $1.0s$)</h4><br>Đây là bài interactive.<br><br>Bạn và bạn bạn chơi một trò chơi.<br><br>Họ có một đa giác lồi $N$ đỉnh và một vài đường chéo bên trong nó.<br><br>Đảm bảo các đường chéo không cắt nhau và không tạo được các tam giác từ các đường chéo và cạnh của đa giác. <br><br>Đến lượt ai, người đó phải vẽ thêm một đường chéo của đa giác mà đa giác vẫn thỏa mãn tính chất trên. <br><br>Ai không vẽ được nữa thì thua. <br><br>Bạn được quyền chọn đi trước hoặc sau. Hãy chơi sao cho bạn thắng. <br><br><br><br>Giới hạn: <br><br>$N \leq 10^5$.<p></p>
+<p></p><h1> Lời giải </h1><br>Sẽ cập nhật trong tuơng lai …<p></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://ngkan146.github.io/2019/03/18/TST2018/" data-id="cjte1u69e0001sqgen729ssii" class="article-share-link">Share</a>
+      <a data-url="http://ngkan146.github.io/2019/03/18/TST2018/" data-id="cjte3lqgz0005u9ge7ozujqsp" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/2018/">2018</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/TST/">TST</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/VNOI/">VNOI</a></li></ul>
@@ -129,6 +131,15 @@
   
     
 <nav id="article-nav">
+  
+    <a href="/2019/03/18/TST2017/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          VN TST 2017
+        
+      </div>
+    </a>
   
   
     <a href="/2019/03/18/IOI-2018/" id="article-nav-older" class="article-nav-link-wrap">
@@ -149,7 +160,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Competitve-Programming/">Competitve Programming</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Competitve-Programming/IOI/">IOI</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Competitve-Programming/VNOI/">VNOI</a><span class="category-list-count">1</span></li></ul></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Competitve-Programming/">Competitve Programming</a><span class="category-list-count">4</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Competitve-Programming/IOI/">IOI</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Competitve-Programming/VNOI/">VNOI</a><span class="category-list-count">3</span></li></ul></li></ul>
     </div>
   </div>
 
@@ -159,7 +170,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/2018/">2018</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/IOI/">IOI</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Japan/">Japan</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/TST/">TST</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/VNOI/">VNOI</a><span class="tag-list-count">1</span></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/2014/">2014</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/2017/">2017</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/2018/">2018</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/IOI/">IOI</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Japan/">Japan</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/TST/">TST</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/VNOI/">VNOI</a><span class="tag-list-count">3</span></li></ul>
     </div>
   </div>
 
@@ -169,7 +180,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">March 2019</a><span class="archive-list-count">2</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">March 2019</a><span class="archive-list-count">4</span></li></ul>
     </div>
   </div>
 
