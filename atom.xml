@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ngkan&#39;s Blog</title>
+  
+  <subtitle>Welcome to my blog.</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://ngkan146.github.io/"/>
+  <updated>2019-03-18T06:17:58.809Z</updated>
+  <id>http://ngkan146.github.io/</id>
+  
+  <author>
+    <name>Khanh Nguyen</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>IOI 2018</title>
+    <link href="http://ngkan146.github.io/2019/03/18/IOI-2018/"/>
+    <id>http://ngkan146.github.io/2019/03/18/IOI-2018/</id>
+    <published>2019-03-18T04:14:36.000Z</published>
+    <updated>2019-03-18T06:17:58.809Z</updated>
+    
+    <content type="html"><![CDATA[<p>Some images from my adventure in Japan</p><p>My computer (no mouse!)</p><img src="/2019/03/18/IOI-2018/computer.jpg" title="[computer]"><a id="more"></a><p>Food, IMO very delicious</p><img src="/2019/03/18/IOI-2018/supermarket.jpg" title="[supermarket]"><img src="/2019/03/18/IOI-2018/yakisoba.jpg" title="[yakisoba]"><p>Some Jubeats in an Arcade center near the stadium</p><img src="/2019/03/18/IOI-2018/jubeats.jpg" title="[jubeats]"><p>Jaxa</p><img src="/2019/03/18/IOI-2018/jaxa.jpg" title="[jaxa]"><p>Aquarium</p><img src="/2019/03/18/IOI-2018/aquarium.jpg" title="[aquarium]"><p>Kochia </p><img src="/2019/03/18/IOI-2018/kochia.jpg" title="[kochia]"><p>Japan visited Japanese house</p><img src="/2019/03/18/IOI-2018/house.jpg" title="[house]"><p>A solid performace</p><img src="/2019/03/18/IOI-2018/performance.jpg" title="[performance]"><p>Bento</p><img src="/2019/03/18/IOI-2018/bento.jpg" title="[bento]"><p>Ema UwU</p><p>Staircase to a shrine</p><img src="/2019/03/18/IOI-2018/stairs.jpg" title="[stairs]"><p>A bookstore’s corner</p><img src="/2019/03/18/IOI-2018/bookstore.jpg" title="[bookstore]"><p>This is not an anime tho</p><img src="/2019/03/18/IOI-2018/AniNiTsukeruKusuriWaNai.jpg" title="[Please_take_my_brother_away]"><p>What I brought back </p><img src="/2019/03/18/IOI-2018/goods.jpg" title="[goods]">]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Some images from my adventure in Japan&lt;/p&gt;
+&lt;p&gt;My computer (no mouse!)&lt;/p&gt;
+&lt;img src=&quot;/2019/03/18/IOI-2018/computer.jpg&quot; title=&quot;[computer]&quot;&gt;
+    
+    </summary>
+    
+      <category term="Competitve Programming" scheme="http://ngkan146.github.io/categories/Competitve-Programming/"/>
+    
+      <category term="IOI" scheme="http://ngkan146.github.io/categories/Competitve-Programming/IOI/"/>
+    
+    
+      <category term="IOI" scheme="http://ngkan146.github.io/tags/IOI/"/>
+    
+      <category term="Japan" scheme="http://ngkan146.github.io/tags/Japan/"/>
+    
+  </entry>
+  
+</feed>
