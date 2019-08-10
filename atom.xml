@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ngkan146.github.io/"/>
-  <updated>2019-03-18T08:41:00.456Z</updated>
+  <updated>2019-08-10T12:07:30.400Z</updated>
   <id>http://ngkan146.github.io/</id>
   
   <author>
@@ -15,6 +15,58 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>How to train for competitive programming</title>
+    <link href="http://ngkan146.github.io/2019/08/03/How-to-train-for-competitive-programming/"/>
+    <id>http://ngkan146.github.io/2019/08/03/How-to-train-for-competitive-programming/</id>
+    <published>2019-08-03T11:52:55.000Z</published>
+    <updated>2019-08-10T12:07:30.400Z</updated>
+    
+    <content type="html"><![CDATA[<p>Some note for cp training.</p><a id="more"></a><p>I don’t train ¯\<em>(ツ)</em>/¯.</p><p>Anyway, here are some suggestions.</p><p>Ask yourself some questions:</p><ul><li>Why did you start doing cp? </li><li>Does cp bring you any positive or real values? Money? Fame?</li><li>Should you give up cp now?</li><li>Why don’t you want to quit cp?</li><li>What will you gain from cp?</li><li>Is your time worth it?</li></ul><p>E689120’s “A way to pratice competitive programming”:<br><a href="https://codeforces.com/blog/entry/66909" target="_blank" rel="noopener">https://codeforces.com/blog/entry/66909</a>;<br><a href="https://drive.google.com/file/d/1J2x8pIYQ3MXANgvzOgBciWd3d79j_Exa/view" target="_blank" rel="noopener">https://drive.google.com/file/d/1J2x8pIYQ3MXANgvzOgBciWd3d79j_Exa/view</a></p><p>Online judges:</p><ul><li><a href="https://codeforces.com/" target="_blank" rel="noopener">https://codeforces.com/</a><br>Most poular website for competitive programmers.</li><li><a href="https://atcoder.jp/" target="_blank" rel="noopener">https://atcoder.jp/</a><br>Amazing online judge with huge amount of quality problems.</li><li><a href="https://vjudge.net/" target="_blank" rel="noopener">https://vjudge.net/</a><br>The website allows to create a virtual contest with problems from different OJs.</li><li><a href="http://usaco.org/" target="_blank" rel="noopener">http://usaco.org/</a><br>USA computing olympiad</li><li><a href="http://hsin.hr/coci/" target="_blank" rel="noopener">http://hsin.hr/coci/</a><br>Croatian open competition in informatics</li><li><a href="https://szkopul.edu.pl/" target="_blank" rel="noopener">https://szkopul.edu.pl/</a><br>Polish online training site</li><li><a href="http://orac.amt.edu.au/cgi-bin/train/hub.pl" target="_blank" rel="noopener">http://orac.amt.edu.au/cgi-bin/train/hub.pl</a><br>Online training site for the Australian Informatics Olympiad programme.</li><li><a href="https://dmoj.ca/" target="_blank" rel="noopener">https://dmoj.ca/</a><br>Canadian Online Judge</li><li><a href="http://acm.timus.ru/" target="_blank" rel="noopener">http://acm.timus.ru/</a><br>Quality ICPC problems.</li><li><a href="https://www.acmicpc.net/" target="_blank" rel="noopener">https://www.acmicpc.net/</a><br>A website that contains lots of problems from various sources.</li><li><a href="https://www.ioi-jp.org/" target="_blank" rel="noopener">https://www.ioi-jp.org/</a><br>Japanese Olympiad in Informatics</li><li><a href="https://csacademy.com/" target="_blank" rel="noopener">https://csacademy.com/</a><br>A Romanian OJ</li><li><a href="https://www.spoj.com/" target="_blank" rel="noopener">https://www.spoj.com/</a></li><li><a href="https://oj.uz/" target="_blank" rel="noopener">https://oj.uz/</a></li><li><a href="https://open.kattis.com/" target="_blank" rel="noopener">https://open.kattis.com/</a></li><li><a href="https://wcipeg.com/main" target="_blank" rel="noopener">https://wcipeg.com/main</a></li><li><a href="http://judge.u-aizu.ac.jp/onlinejudge/" target="_blank" rel="noopener">http://judge.u-aizu.ac.jp/onlinejudge/</a></li><li><a href="http://noi.ac/" target="_blank" rel="noopener">http://noi.ac/</a></li><li><a href="http://uoj.ac/" target="_blank" rel="noopener">http://uoj.ac/</a></li><li><a href="https://www.hackerrank.com/" target="_blank" rel="noopener">https://www.hackerrank.com/</a></li><li><a href="https://www.codechef.com/" target="_blank" rel="noopener">https://www.codechef.com/</a></li></ul><p>Learning sites:</p><ul><li>codeforces’s blogs</li><li><a href="http://cp-algorithms.com/" target="_blank" rel="noopener">http://cp-algorithms.com/</a></li></ul><p>Random sites you might have interest in:</p><ul><li><a href="https://projecteuler.net/" target="_blank" rel="noopener">https://projecteuler.net/</a></li><li><a href="http://mxwell.github.io/draw-graph/" target="_blank" rel="noopener">http://mxwell.github.io/draw-graph/</a>    (csacademy.com also has a similar application but with interaction)</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Some note for cp training.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Competitve Programming" scheme="http://ngkan146.github.io/categories/Competitve-Programming/"/>
+    
+      <category term="Train" scheme="http://ngkan146.github.io/categories/Competitve-Programming/Train/"/>
+    
+    
+      <category term="Train" scheme="http://ngkan146.github.io/tags/Train/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Pre TST 2019</title>
+    <link href="http://ngkan146.github.io/2019/03/19/pre-tst2019/"/>
+    <id>http://ngkan146.github.io/2019/03/19/pre-tst2019/</id>
+    <published>2019-03-19T07:20:56.000Z</published>
+    <updated>2019-03-19T09:12:25.295Z</updated>
+    
+    <content type="html"><![CDATA[<p>Một vài comment về kì thi thử.</p><a id="more"></a><p></p><h3> Day 1 </h3><br>SWAP : Baltic Olympiad in Informatics 2016 Day 2<br>SUMK : <a href="https://www.51nod.com/Challenge/Problem.html#!#problemId=1167" target="_blank" rel="noopener">https://www.51nod.com/Challenge/Problem.html#!#problemId=1167</a><br>SEQQUERY : Một bài Segment Tree với ý tưởng đơn giản<br>FFUN : Một bài Codeforces nào đó<p></p><p></p><h3> Day 2 </h3><br>BANANA : <a href="https://codeforces.com/gym/100792/problem/B" target="_blank" rel="noopener">https://codeforces.com/gym/100792/problem/B</a>, một bài tập có vẻ kinh điển, sử dụng thuật toán KMP để giải quyết nhanh gọn<br>MIENMAN : <a href="https://codeforces.com/gym/100430/problem/B" target="_blank" rel="noopener">https://codeforces.com/gym/100430/problem/B</a>, có vẻ ý tưởng cơ bản là tính giá trị của các suffix<br>SUM : Bài này 2 sub cuối rời, một sub dùng FFT và một sub dùng Pollard - Rho (?)<br>TIME : <a href="https://codeforces.com/contest/877/problem/D" target="_blank" rel="noopener">https://codeforces.com/contest/877/problem/D</a>, bài biếu điểm<p></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Một vài comment về kì thi thử.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Competitve Programming" scheme="http://ngkan146.github.io/categories/Competitve-Programming/"/>
+    
+      <category term="VNOI" scheme="http://ngkan146.github.io/categories/Competitve-Programming/VNOI/"/>
+    
+    
+      <category term="VNOI" scheme="http://ngkan146.github.io/tags/VNOI/"/>
+    
+      <category term="TST" scheme="http://ngkan146.github.io/tags/TST/"/>
+    
+      <category term="2019" scheme="http://ngkan146.github.io/tags/2019/"/>
+    
+  </entry>
   
   <entry>
     <title>VN TST 2014</title>
