@@ -9,7 +9,7 @@
         rel="stylesheet" href="http://ngkan146.github.io/css/github.css" />
     <meta name="viewport" content="width=device-width">
 
-    <title>About - ngkan&#39;s corner</title>
+    <title>VN TST 2017 - ngkan&#39;s corner</title>
 
     <link rel="icon" type="image/x-icon" class="js-site-favicon" href="http://ngkan146.github.io/images/favicon.ico">
     <meta name="theme-color" content="#1e2327">
@@ -116,16 +116,16 @@
                                     href="http://ngkan146.github.io/">Khanh Nguyen</a></span>
                             <span class="path-divider">/</span>
                             <strong itemprop="name" class="css-truncate-target" style="max-width: 410px"><a
-                                    href="http://ngkan146.github.io/about/">About</a></strong>
+                                    href="http://ngkan146.github.io/posts/tst2017/">VN TST 2017</a></strong>
 
                             <div class="d-block text-small text-gray">
-                                Created <time-ago datetime="2020-01-07" class="no-wrap"
-                                    title="Created at 2020/01/07">
-                                    2020-01-07</time-ago>
+                                Created <time-ago datetime="2019-03-18" class="no-wrap"
+                                    title="Created at 2019/03/18">
+                                    2019-03-18</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyed <time-ago datetime="2020-01-07" class="no-wrap"
-                                    title="Modifyed  at 2020/01/07">
-                                    2020-01-07</time-ago>
+                                Modifyed <time-ago datetime="2019-03-18" class="no-wrap"
+                                    title="Modifyed  at 2019/03/18">
+                                    2019-03-18</time-ago>
                             </div>
                         </h1>
                     </div>
@@ -140,15 +140,114 @@
                     <div class="Box mt-3 position-relative">
                         <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
                             <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                                23 Words
+                                1876 Words
                                 
                             </div>
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p>I am ngkan146, know one or two about competitive programming.</p>
-<p>If you know how to get better at math please tell me :)</p>
-</article>
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p>Đề thi và lời giải tạm thời cho TST 2017.</p>
+<h1 id="đề-bài">Đề bài</h1>
+<h2 id="ngày-1">Ngày 1</h2>
+<h3 id="bài-1">Bài 1</h3>
+<p>Cho hai dãy $A$ và $B$ gồm $N$ phần tử và số $M$.</p>
+<p>Có các loại thao tác sau:</p>
+<ul>
+<li>
+<p>Nhân cả dãy lên cùng với một số (tùy ý mình) từ $1$ đến $M$</p>
+</li>
+<li>
+<p>Trừ một phần tử nào đó đi $1$.</p>
+</li>
+</ul>
+<p>Tìm số thao tác tối thiểu để biến dãy $A$ thành dãy $B$.</p>
+<p>Giới hạn:
+$N \leq 5000$
+Các phần tử của hai dãy và số $M \leq 1000$.</p>
+<h3 id="bài-2">Bài 2</h3>
+<p>Cho 3 xâu $X, Y, Z$ độ dài $N$ gồm các chữ cái thường.
+Tìm 3 xâu $A, B, C$ sao cho:</p>
+<ul>
+<li>$X$ có dạng $* + A + * + B + *$ ($*$ có thể rỗng hoặc là một xâu)</li>
+<li>$Y$ có dạng $* + B + * + C + *$</li>
+<li>$Z$ có dạng $* + C + * + A + *$</li>
+<li>$|A| + |B| + |C|$ (tổng độ dài 3 xâu) đạt max.</li>
+</ul>
+<p>Giới hạn:
+$N \leq 5000$.</p>
+<h3 id="bài-3">Bài 3</h3>
+<p><a href="https://codeforces.com/contest/720/problem/C">https://codeforces.com/contest/720/problem/C</a></p>
+<h3 id="bài-4">Bài 4</h3>
+<p>Cho cây $N$ đỉnh, gốc là $1$.
+Đỉnh $v$ gọi là con bậc $k$ của $u$ nếu $u$ là tổ tiên của $v$ và từ $u$ đi đến $v$ phải đi qua $k-1$ đỉnh khác.
+Có $Q$ truy vấn:</p>
+<ul>
+<li>&ldquo;I u k val&rdquo; : Cộng các con từ bậc $1$ đến bậc $k$ của $u$ một lượng là $val$</li>
+<li>&ldquo;Q u&rdquo; : In ra giá trị của $u$ hiện tại.</li>
+</ul>
+<p>Giới hạn:
+$N, Q \leq 10^5$</p>
+<h2 id="ngày-2">Ngày 2</h2>
+<h3 id="bài-5">Bài 5</h3>
+<p>Cho bảng $N$ hàng $M$ cột, mỗi ô của bảng được tô bởi một trong $2 \cdot M$ màu (đảm bảo có cả $2 \cdot M$ màu).
+Độ đa sắc của một cột là số màu <em><strong>khác</strong></em> nhau có trong cột đó.
+Độ đa sắc của cả bảng là max độ đa sắc của các cột.
+Có thể tráo màu của hai ô mà là góc đối nhau của một hình chữ nhật $2 \cdot 3$ (như quân mã trong bàn cờ).</p>
+<p>Hãy tráo màu các ô trong bảng sao cho độ đa sắc của bảng là nhỏ nhất có thể.
+Cần truy vết.</p>
+<p>Giới hạn:
+$4 \leq N, M \leq 50$</p>
+<h3 id="bài-6">Bài 6</h3>
+<p>Có $N$ đoạn thẳng song song với trục tọa độ trên mặt phẳng.
+Một lần đặt bút vẽ là một lần di bút mà không nhấc bút.
+Tìm cách vẽ sao cho số lần đặt bút là min và mình chỉ di bút trên các đoạn thẳng đã cho.
+Cần truy vết.</p>
+<p>Giới hạn:</p>
+<p>$N \leq 1000$.
+Tọa độ các điểm là số nguyên là có giá trị tuyệt đối $\leq 1000$.</p>
+<h3 id="bài-7">Bài 7</h3>
+<p><a href="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0607">http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0607</a></p>
+<h3 id="bài-8">Bài 8</h3>
+<p>Đây là bài interactive.</p>
+<p>Cho một dãy số gồm $N$ phần tử phân biệt. Mình không biết phần tử nào cả.
+Có thể hỏi 2 số ở vị trí $(i, j)$ và trình chấm sẽ trả về số lớn hơn.
+Tìm số lớn thứ $k$ của dãy.</p>
+<p>Giới hạn:</p>
+<p>Sub $1$: $k = 1$, không cho biết giới hạn số câu hỏi.</p>
+<p>Sub $2$: $k = 2$, không cho biết giới hạn số câu hỏi.</p>
+<p>Sub $3$: $k = 3$, không hỏi quá $1017$ câu.</p>
+<h1 id="lời-giải">Lời giải</h1>
+<h2 id="ngày-1-1">Ngày 1</h2>
+<h3 id="bài-1-1">Bài 1</h3>
+<p>Thay vì biến dãy $A$ thành dãy $B$, ta biến dãy $B$ thành dãy $A$.
+Thao tác bây giờ là chia cả dãy và cộng một số.
+Xét sub bé, $M = 2$.
+Ta nhận thấy là luôn chia 2 mọi lúc có thể (dễ dàng chứng minh).
+Vậy thuật toán là <strong>while</strong> tồn tại một phần tử của dãy $B &gt; A$, tăng cả dãy
+$B$ thành bội của 2 nhỏ nhất mà $\geq$ nó, sau đó chia 2 cả dãy.
+Quay lại sub lớn.
+Ta thấy có nhiều cách chọn chia cả dãy nên tạo ra nhiều điều kiện khó xử lý.&lt;
+Nhưng thực ra, thực hiện các phép chia theo thứ tự nào cũng cho ra một kết quả như nhau.
+Vậy ta backtrack các phép chia.
+(còn sol khác).</p>
+<h3 id="bài-2-1">Bài 2</h3>
+<p>DP sử dụng Knuth Optimization.</p>
+<h3 id="bài-3-1">Bài 3</h3>
+<p>Sub bé backtrack sub lớn tham.</p>
+<h3 id="bài-4-1">Bài 4</h3>
+<p>Chia căn.</p>
+<h2 id="ngày-2-1">Ngày 2</h2>
+<h3 id="bài-5-1">Bài 5</h3>
+<p>Dưới điều kiện đã cho, dễ thấy có thể swap 2 ô tùy ý.
+Gọi $a_i$ là số ô có màu $i$.
+Nếu tồn tại cách ghép các $a_i$ thành $M$ cặp sao cho tổng của mỗi cặp $= N$ thì đáp án là 2.
+Ngược lại, đáp án là 3. (có thể chỉ ra một cách tham).</p>
+<h3 id="bài-6-1">Bài 6</h3>
+<p>Dựng cạnh ảo sau đó chạy thuật toán tìm chu trình Euler.</p>
+<h3 id="bài-7-1">Bài 7</h3>
+<p>Tịnh tiến Segment tree (?)</p>
+<h3 id="bài-8-1">Bài 8</h3>
+<p>Xây cây segment tree , nút id lưu max của range.</p></article>
                             <div id="disqus_thread"></div>
 <script type="application/javascript">
     var disqus_config = function () {

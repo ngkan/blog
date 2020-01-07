@@ -9,7 +9,7 @@
         rel="stylesheet" href="http://ngkan146.github.io/css/github.css" />
     <meta name="viewport" content="width=device-width">
 
-    <title>About - ngkan&#39;s corner</title>
+    <title>VN TST 2018 - ngkan&#39;s corner</title>
 
     <link rel="icon" type="image/x-icon" class="js-site-favicon" href="http://ngkan146.github.io/images/favicon.ico">
     <meta name="theme-color" content="#1e2327">
@@ -116,16 +116,16 @@
                                     href="http://ngkan146.github.io/">Khanh Nguyen</a></span>
                             <span class="path-divider">/</span>
                             <strong itemprop="name" class="css-truncate-target" style="max-width: 410px"><a
-                                    href="http://ngkan146.github.io/about/">About</a></strong>
+                                    href="http://ngkan146.github.io/posts/tst2018/">VN TST 2018</a></strong>
 
                             <div class="d-block text-small text-gray">
-                                Created <time-ago datetime="2020-01-07" class="no-wrap"
-                                    title="Created at 2020/01/07">
-                                    2020-01-07</time-ago>
+                                Created <time-ago datetime="2019-03-18" class="no-wrap"
+                                    title="Created at 2019/03/18">
+                                    2019-03-18</time-ago>
                                 <span class="file-info-divider"></span>
-                                Modifyed <time-ago datetime="2020-01-07" class="no-wrap"
-                                    title="Modifyed  at 2020/01/07">
-                                    2020-01-07</time-ago>
+                                Modifyed <time-ago datetime="2019-03-18" class="no-wrap"
+                                    title="Modifyed  at 2019/03/18">
+                                    2019-03-18</time-ago>
                             </div>
                         </h1>
                     </div>
@@ -140,15 +140,130 @@
                     <div class="Box mt-3 position-relative">
                         <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
                             <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                                23 Words
+                                2358 Words
                                 
                             </div>
                         </div>
 
                         <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p>I am ngkan146, know one or two about competitive programming.</p>
-<p>If you know how to get better at math please tell me :)</p>
-</article>
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p>Đề thi TST 2018.</p>
+<h1 id="đề-bài">Đề bài</h1>
+<h2 id="ngày-1">Ngày 1</h2>
+<p>TL: $0.5s$<br>
+ML: $512Mb$</p>
+<h3 id="bài-1">Bài 1</h3>
+<p>Cho mảng vòng tròn $N$ phần tử đánh số từ $1$ đến $N$. Bạn đứng tại ô $1$.
+Mỗi bước bạn <strong>phải</strong> đi sang một trong hai ô kề với ô đang đứng.
+Có bao nhiêu cách đi đúng $K$ bước mà sau $K$ bước bạn đứng ở ô $1$?</p>
+<p>In ra kết quả $mod$ $(10^9+7)$.</p>
+<p>Giới hạn:
+Mỗi file có $1$ test.</p>
+<p>$N \leq 4000$;
+$K \leq 10^6$</p>
+<h3 id="bài-2">Bài 2</h3>
+<p>Cho cái cây $N$ đỉnh. Mỗi đỉnh được tô một trong 2 màu xanh, đỏ.
+Thao tác flip đỉnh $u$ là đổi màu của đinh $u$ và các đỉnh kề với $u$ (xanh -&gt; đỏ và đỏ -&gt; xanh).
+Liệu có thể biến cả cây thành màu xanh?
+Cần truy vết.</p>
+<p>Giới hạn:
+Mỗi file có $500$ test.</p>
+<p>$N \leq 3000$.</p>
+<h3 id="bài-3">Bài 3</h3>
+<p>Cho một đường tròn trên mặt phẳng và $N$ đường thẳng có dạng $ax + by = c$.
+Với mỗi đường thẳng, xét giao của nó với đường tròn (không giao thì không quan tâm).
+Giả sử đường thẳng giao đường tròn tại $P_1$ và $P_2$ thì gọi cung ứng với đường thẳng là
+cung nhỏ hơn giữa hai cung $P_1 P_2$ và $P_2 P_1$.
+(Đảm bảo không có đường thẳng đi qua tâm đường tròn và không có 2 đường thẳng nào cắt nhau trên
+đường tròn)</p>
+<p>Bây giờ ta coi các cung vừa tạo là một đỉnh của đồ thị.
+Hai đỉnh có cạnh khi và chỉ khi hai cung tương ứng có điểm chung.
+Xét hai cạnh trên đồ thị
+Giữa hai cạnh $e$, $f$ có đường đi độ dài $d$ khi tồn tại dãy cạnh $e$, $w_1$, $w_2$, &hellip;, $w_d$, $f$ và các cạnh
+liên tiếp trong dãy có đỉnh chung.
+Một tập cạnh con của đồ thị được gọi là đẹp nếu giữa hai cạnh bất kì trong tập, hoặc không có đường đi giữa chúng trên đồ thị ban đầu hoặc đường đi ngắn nhất giữa chúng trên đồ thị ban đầu $\geq 2$.
+Ta quan tâm đến tập cạnh đẹp có nhiều cạnh nhất.
+In ra số cạnh nhiều nhất có thể.</p>
+<p>Giới hạn:</p>
+<p>Mỗi file có $10$ test.
+Các số trong bài đều nguyên và có trị tuyệt đối $\leq 10^9$.</p>
+<p>Các subtask:</p>
+<ul>
+<li>$N \leq 10$</li>
+<li>$N \leq 50$</li>
+<li>$N \leq 500$</li>
+<li>$N \leq 50000$</li>
+</ul>
+<h3 id="bài-4">Bài 4</h3>
+<p>Ban đầu bạn có một mảng.
+Có hai truy vấn:</p>
+<ul>
+<li>Loại 1: Thêm phần tử vào mảng đã cho.</li>
+<li>Loại 2: Xét mảng đã cho sau khi sort bé -&gt; lớn, ta cần in ra tổng của K phần tử chỉ định. Các phần tử này được tạo như sau:</li>
+</ul>
+<p>Cho $4$ số $K, F, A, B$, ta cần tính sum của các phần tử có $id$ sau:</p>
+<ul>
+<li>$id_1$ = $F$ $mod$ (size của mảng hiện tại)</li>
+<li>$id_i$ = ($id_{i-1} \times A + B$) $mod$ (size của mảng hiện tại)</li>
+</ul>
+<p>Giới hạn:
+Mỗi file có $5$ test.</p>
+<p>$N \leq 10^5$;
+$Q \leq 20000$;
+$K \leq 10^4$;
+$F,A,B \leq 10^3$</p>
+<h2 id="ngày-2">Ngày 2</h2>
+<h3 id="bài-5-tl-02s">Bài 5 (TL: $0.2s$)</h3>
+<p>Bạn có một code chặt nhị phân để tìm một số trên mảng đã sort như nhau:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cpp" data-lang="cpp"><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">binary_search</span>(vector <span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> <span style="color:#f92672">&amp;</span>a, <span style="color:#66d9ef">int</span> key){
+    <span style="color:#66d9ef">int</span> l <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>, r <span style="color:#f92672">=</span> a.size() <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>;
+    <span style="color:#66d9ef">while</span> (l <span style="color:#f92672">&lt;</span><span style="color:#f92672">=</span> r){
+        <span style="color:#66d9ef">int</span> mid <span style="color:#f92672">=</span> (l <span style="color:#f92672">+</span> r <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span>;
+        <span style="color:#66d9ef">if</span> (a[mid] <span style="color:#f92672">=</span><span style="color:#f92672">=</span> key)
+            <span style="color:#66d9ef">return</span> mid;
+        <span style="color:#66d9ef">if</span> (a[mid] <span style="color:#f92672">&lt;</span> key)
+            l <span style="color:#f92672">=</span> mid <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>;
+        <span style="color:#66d9ef">else</span>
+            r <span style="color:#f92672">=</span> mid <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>;
+    }
+    <span style="color:#66d9ef">return</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;
+}
+</code></pre></div><p>Bạn nhận ra hàm trên có thể đúng với cả mảng không sort.
+Cho $N$ và key. Đếm số hoán vị từ $1$ đến $N$ mà hàm đã cho chỉ ra đúng vị trí của key.</p>
+<p>Giới hạn:
+$N \leq 10^5$</p>
+<h3 id="bài-6-tl-05s">Bài 6 (TL: $0.5s$)</h3>
+<p>Ban đầu bạn có một tập rỗng.
+Có hai truy vấn:</p>
+<ul>
+<li>Thêm một điểm trên mặt phẳng 2D vào tập. Đảm bảo điểm này có hoành độ lớn hơn tất cả các điểm trong tập hiện tại.</li>
+<li>Xóa đi k điểm có hoành độ lớn nhất.</li>
+</ul>
+<p>Sau mỗi truy vấn, bạn phải in ra diện tích của bao lồi của tập điểm.
+Xử lý online (dùng kết quả của truy vấn trước để xác định yêu cầu của truy vấn sau).</p>
+<p>Giới hạn:
+Số truy vấn $\leq 10^5$.</p>
+<h3 id="bài-7-tl-10s">Bài 7 (TL: $1.0s$)</h3>
+<p>Bạn có một lưới tổ ong $N$ lớp được đánh số xoay vòng. Sau đây là hình minh họa lưới $2$ lớp:</p>
+<p><img src="/TST2018/hexagon.png" alt="hexagon"></p>
+<p>Có thể thấy, hình có $N$ lớp (không tính ô ở giữa) thì có $3 \cdot N \cdot (N+1) + 1$ ô.</p>
+<p>Bạn có $M$ vật trên lưới và cần di chuyển đến $M$ địa điểm được chỉ định (vật nào đứng ô nào cũng được).
+Một bước di chuyển là chuyển một vật sang các ô kề cạnh mà không có vật nào khác.
+Tính số bước di chuyển tối thiểu.</p>
+<p>Giới hạn:
+Mỗi file có $5$ test;
+$N \leq 50$.</p>
+<h3 id="bài-8-tl-10s">Bài 8 (TL: $1.0s$)</h3>
+<p>Đây là bài interactive.</p>
+<p>Bạn và bạn bạn chơi một trò chơi.
+Họ có một đa giác lồi $N$ đỉnh và một vài đường chéo bên trong nó.
+Đảm bảo các đường chéo không cắt nhau và không tạo được các tam giác từ các đường chéo và cạnh của đa giác.
+Đến lượt ai, người đó phải vẽ thêm một đường chéo của đa giác mà đa giác vẫn thỏa mãn tính chất trên.
+Ai không vẽ được nữa thì thua.
+Bạn được quyền chọn đi trước hoặc sau. Hãy chơi sao cho bạn thắng.</p>
+<p>Giới hạn:
+$N \leq 10^5$.</p>
+<h1 id="lời-giải">Lời giải</h1>
+<p>Có thể được cập nhật trong tuơng lai &hellip;</p></article>
                             <div id="disqus_thread"></div>
 <script type="application/javascript">
     var disqus_config = function () {
