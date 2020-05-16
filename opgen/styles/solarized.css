@@ -1,0 +1,184 @@
+/* General */
+html, body{
+    background-color: 	#002b36;
+    width: auto;
+    position: relative;
+    text-align: center;
+    color: #eee8d5;
+}
+
+h1{
+    text-align:center;
+    font-family: Sans-serif;
+    color: #2aa198;
+}
+
+.Box {
+    border: 1px solid;
+    background-color:#073642 ;
+    border-radius: 0px;
+    width: 40%;
+    height: 300px;
+}
+textarea{
+    background-color: #fdf6e3;
+    height: 95%;
+    width: 100%;
+    /* https://stackoverflow.com/questions/271067/
+    how-can-i-make-a-textarea-100-width-without-
+    overflowing-when-padding-is-present
+    */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    resize: none;
+    color: #073642 ;
+}
+.MDinput{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0%;
+    bottom: 0%;
+}
+
+/* For input + preview */
+.BasicInfo{
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    
+    width: 80%;
+}
+.WorkingSpace{
+    position: relative;
+    text-align: center;
+    height: 60%;
+    width: 80%;
+    margin: 10px auto;
+    margin-bottom: 300px;
+    padding: 10px;
+}
+.WorkingSpace.Box{
+    width: 40%;
+}
+.InputTab{
+    position: absolute;
+    height: 83%;
+    width: 100%;
+    left: 0%;
+    bottom: 0%;
+}
+.InputName{
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    left: 0%;
+    top: 8.8%;
+}
+#tabnamehaha{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin-top: 2px;
+}
+.TabName{
+    position: absolute;
+    width: 70%;
+    height: 10%;
+    padding-top: 2px;
+}
+#Input {
+    text-align: left;
+    position: absolute;
+    width: 30%;
+    top: 0%;
+    left: 0%;
+}
+#Output {
+    position: absolute;
+    width: 70%;
+    top: 0%;
+    left: 30%;
+}
+.Preview{
+    position: absolute;
+    display: inline-block;
+    height: 90.5%;
+    width: 100%;
+    bottom: 0%;
+    left: 0%;
+    overflow: auto;
+}
+.TabBar {
+    position: absolute;
+    width: 100%;
+    height: 8%;   
+    top: 0;
+}
+.TabButton{
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+    margin: 0 auto;
+    border: none;
+    padding: 0px;
+    float: left;
+    background-color: #586e75 ;
+    padding-top: 1%;
+    transition: 0.2s;
+}
+.TabButton:hover{
+    background-color: #657b83 ;
+}
+.Active{
+    width: 19%;
+    height: 100%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+#MoreTab {
+    width: 10%;
+}
+/* For output*/
+#OutputText {
+    position: relative;
+    margin-top: 20px;
+    display: inline-block;
+    height: 200px;
+}
+.Result {
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    left: 0%;
+    bottom: 0%;
+}
+
+/*^_^*/
+.BottomBox {
+    display: inline-block;
+}
+footer {
+    display: inline-block;
+}
+.Bot{
+    font-size: 0.8em;
+    position: relative;
+    text-align: center;
+}
+.Hidden {
+    display: none;
+}
+.MakeItFloat {
+    text-align: center;
+    padding-top: 0.5%;
+    width: 100%;
+    height: 7.95%;
+    border-bottom: 1px solid;
+}
+
+.LotsOfButtons button{
+    width: 150px;
+}
