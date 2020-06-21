@@ -2,49 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>VNOI on ngkan&#39;s corner</title>
-    <link>//ngkan146.github.io/categories/vnoi/</link>
+    <link>https://ngkan.github.io/categories/vnoi/</link>
     <description>Recent content in VNOI on ngkan&#39;s corner</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 19 Mar 2019 14:20:56 +0000</lastBuildDate>
+    <copyright>© 2019. Theme by &lt;a href=&#34;https://github.com/MeiK2333/github-style&#34;&gt;&lt;span&gt;github-style&lt;/span&gt;&lt;/a&gt;</copyright>
+    <lastBuildDate>Mon, 18 Mar 2019 15:31:01 +0000</lastBuildDate>
     
-	<atom:link href="//ngkan146.github.io/categories/vnoi/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ngkan.github.io/categories/vnoi/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Pre TST 2019</title>
-      <link>//ngkan146.github.io/posts/pre-tst2019/</link>
-      <pubDate>Tue, 19 Mar 2019 14:20:56 +0000</pubDate>
-      
-      <guid>//ngkan146.github.io/posts/pre-tst2019/</guid>
-      <description>&lt;p&gt;Một vài comment về kì thi thử.&lt;/p&gt;</description>
-    </item>
     
     <item>
       <title>VN TST 2014</title>
-      <link>//ngkan146.github.io/posts/tst2014/</link>
+      <link>https://ngkan.github.io/posts/vntst2014/</link>
       <pubDate>Mon, 18 Mar 2019 15:31:01 +0000</pubDate>
       
-      <guid>//ngkan146.github.io/posts/tst2014/</guid>
-      <description>&lt;p&gt;Đề thi TST 2014.&lt;/p&gt;</description>
+      <guid>https://ngkan.github.io/posts/vntst2014/</guid>
+      <description>&lt;p&gt;Đề thi của kì thi TST 2014.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>VN TST 2017</title>
-      <link>//ngkan146.github.io/posts/tst2017/</link>
+      <link>https://ngkan.github.io/posts/vntst2017/</link>
       <pubDate>Mon, 18 Mar 2019 15:16:19 +0000</pubDate>
       
-      <guid>//ngkan146.github.io/posts/tst2017/</guid>
-      <description>&lt;p&gt;Đề thi và lời giải tạm thời cho TST 2017.&lt;/p&gt;</description>
+      <guid>https://ngkan.github.io/posts/vntst2017/</guid>
+      <description>&lt;p&gt;Đề thi và lời giải của kì thi TST 2017.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>VN TST 2018</title>
-      <link>//ngkan146.github.io/posts/tst2018/</link>
+      <link>https://ngkan.github.io/posts/vntst2018/</link>
       <pubDate>Mon, 18 Mar 2019 14:24:26 +0000</pubDate>
       
-      <guid>//ngkan146.github.io/posts/tst2018/</guid>
-      <description>&lt;p&gt;Đề thi TST 2018.&lt;/p&gt;</description>
+      <guid>https://ngkan.github.io/posts/vntst2018/</guid>
+      <description>&lt;p&gt;Đề thi của kì thi TST 2018.&lt;/p&gt;</description>
     </item>
     
   </channel>

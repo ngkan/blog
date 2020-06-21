@@ -2,48 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on ngkan&#39;s corner</title>
-    <link>//ngkan146.github.io/categories/</link>
+    <link>https://ngkan.github.io/categories/</link>
     <description>Recent content in Categories on ngkan&#39;s corner</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 20 Nov 2019 18:08:28 +0000</lastBuildDate>
+    <copyright>© 2019. Theme by &lt;a href=&#34;https://github.com/MeiK2333/github-style&#34;&gt;&lt;span&gt;github-style&lt;/span&gt;&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 03 Aug 2019 18:52:55 +0000</lastBuildDate>
     
-	<atom:link href="//ngkan146.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ngkan.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Competitve Programming</title>
-      <link>//ngkan146.github.io/categories/competitve-programming/</link>
-      <pubDate>Wed, 20 Nov 2019 18:08:28 +0000</pubDate>
+      <link>https://ngkan.github.io/categories/competitve-programming/</link>
+      <pubDate>Sat, 03 Aug 2019 18:52:55 +0000</pubDate>
       
-      <guid>//ngkan146.github.io/categories/competitve-programming/</guid>
+      <guid>https://ngkan.github.io/categories/competitve-programming/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Training</title>
-      <link>//ngkan146.github.io/categories/training/</link>
-      <pubDate>Wed, 20 Nov 2019 18:08:28 +0000</pubDate>
+      <title>Train</title>
+      <link>https://ngkan.github.io/categories/train/</link>
+      <pubDate>Sat, 03 Aug 2019 18:52:55 +0000</pubDate>
       
-      <guid>//ngkan146.github.io/categories/training/</guid>
+      <guid>https://ngkan.github.io/categories/train/</guid>
       <description></description>
     </item>
     
     <item>
       <title>VNOI</title>
-      <link>//ngkan146.github.io/categories/vnoi/</link>
-      <pubDate>Tue, 19 Mar 2019 14:20:56 +0000</pubDate>
+      <link>https://ngkan.github.io/categories/vnoi/</link>
+      <pubDate>Mon, 18 Mar 2019 15:31:01 +0000</pubDate>
       
-      <guid>//ngkan146.github.io/categories/vnoi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IOI</title>
-      <link>//ngkan146.github.io/categories/ioi/</link>
-      <pubDate>Mon, 18 Mar 2019 11:14:36 +0000</pubDate>
-      
-      <guid>//ngkan146.github.io/categories/ioi/</guid>
+      <guid>https://ngkan.github.io/categories/vnoi/</guid>
       <description></description>
     </item>
     
