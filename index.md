@@ -10,13 +10,9 @@ You might find these stuffs interesting:
 
 <p>
 <a href="https://projecteuler.net/about" title="Project Euler">
-  <img src="https://projecteuler.net/profile/ngkan.png">
+  <img src="https://projecteuler.net/profile/ngkan.png" height=60>
+</a>
+<a href="https://discord.com/invite/g5ghrQQwkk" title="Join From VNOI with love on Discord">
+  <img src="https://discordapp.com/api/guilds/660930260405190688/embed.png?style=banner2" height=60>
 </a>
 </p>
-
-<p>
-<a href="https://discord.com/invite/g5ghrQQwkk" title="Join us on Discord">
-  <img src="https://discordapp.com/api/guilds/660930260405190688/embed.png?style=banner3">
-</a>
-</p>
-
