@@ -116,22 +116,21 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: disqus # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
-    shortname: # the Disqus shortname for the site
+    shortname: https-ngkan146-github-io
 
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : b63b9595704195206fa2 # GitHub Application Client ID
-    clientSecret:  3f251f0f1848f8d0a7c560306c1a7dc28869c948 # GitHub Application Client Secret
-    repository  : ngkan/ngkan.github.io # GitHub repo
-    owner       : ngkan # GitHub repo owner
+    clientID    : # GitHub Application Client ID
+    clientSecret: # GitHub Application Client Secret
+    repository  : # GitHub repo
+    owner       : # GitHub repo owner
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       # - your GitHub Id
-      - ngkan
 
   ## Valine
   # please refer to https://valine.js.org/en/ for more info.
