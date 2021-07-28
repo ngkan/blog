@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: Archive 
 title:  "Bún riêu cua Phở Bờm"
 # articles:
 #   excerpt_type: html
