@@ -1,4 +1,5 @@
 ---
+layout: article
 title:  "Bún riêu cua Phở Bờm"
 ---
 
