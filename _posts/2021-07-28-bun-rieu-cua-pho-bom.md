@@ -1,9 +1,9 @@
 ---
 layout: article
-title: Bun rieu cua pho Bom
+title: "Bún riêu cua Phở Bờm"
 key: 2021-07-28-bun-rieu-cua-pho-bom
 ---
 
-# Testing
+# Done
 
-Được cho bát mắm tôm.
+This is why Jekyll is bad. Too many layers of abstraction.
