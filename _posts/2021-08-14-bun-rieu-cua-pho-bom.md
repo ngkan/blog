@@ -3,8 +3,7 @@ layout: article
 title: "Bún riêu cua Phở Bờm"
 key: 2021-08-14-bun-rieu-cua-pho-bom
 tag: 
-- Phở Bờm
-- Ẩm thực
+- Food
 ---
 
 Xin chào các bạn mình là ngkan.
