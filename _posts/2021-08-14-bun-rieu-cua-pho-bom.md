@@ -7,7 +7,7 @@ tag:
 - Ẩm thực
 ---
 
-Xin chào các bạn mình là K.
+Xin chào các bạn mình là ngkan.
 
 Hôm nay là một ngày rất đẹp trời, đẹp đến mức trời không có một cọng mây nào. Vì
 mình cũng chán quá không có gì làm, nên mình sẽ kể cho các bạn về một trải nghiệm
