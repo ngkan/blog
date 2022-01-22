@@ -18,7 +18,7 @@ theme: jekyll-text-theme # Gem-based Jekyll Themes
 ##############################
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : https://ngkan.me # the base hostname & protocol for your site e.g. https://www.someone.com
+url     : https://ngkan.me/blog # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
 title   : ngkan.me!
 description: > # this means to ignore newlines until "Language & timezone"
@@ -52,7 +52,7 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: ngkan/ngkan.github.io
+repository: ngkan/blog
 repository_tree: master
 
 
