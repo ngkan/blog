@@ -4,17 +4,17 @@ header:
       en      : &EN       Home
     url:
 
-  - titles:
-      # @start locale config
-      en      : &EN       CPL
-    url: /cpl
+#   - titles:
+#       # @start locale config
+#       en      : &EN       CPL
+#     url: /cpl
 
   - titles:
       # @start locale config
       en      : &EN       Archive
     url: /archive.html
 
-  - titles:
-      # @start locale config
-      en      : &EN       About
-    url: /about.html
+#   - titles:
+#       # @start locale config
+#       en      : &EN       About
+#     url: /about.html
