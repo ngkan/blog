@@ -20,7 +20,7 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : https://ngkan.me # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : /blog # does not include hostname
-title   : ngkan.me!
+title   : Ngkan's fun notes
 description: > # this means to ignore newlines until "Language & timezone"
 ## => Language and Timezone
 ##############################
@@ -45,7 +45,7 @@ author:
   medium    : # "user_name" the last part of your profile url, e.g. https://medium.com/user_name
   zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
-  linkedin  : khanhnguyenx # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
+  linkedin  : ngkan # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
   github    : ngkan # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
 
@@ -211,6 +211,10 @@ defaults:
       show_edit_on_github: false
       show_subscribe: false
       pageview: true
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
 
 
 ## => Plugins

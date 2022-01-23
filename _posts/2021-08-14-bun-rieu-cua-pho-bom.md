@@ -20,7 +20,7 @@ dù bát mì Quảng của bạn N phải đợi thêm 5 10 phút sau mình và 
 
 Bát bún riêu cua của mình, khi mới được phục vụ, trông như thế này:
 
-![Bún](/assets/images/bun_rieu_cua_pho_bom.jpg){:.shadow}
+![Bún]({{ site.baseurl }}/assets/img/bun_rieu_cua_pho_bom.jpg){:.shadow}
 
 Tại Phở Bờm, mình rất là ngạc nhiên khi mà bát bún riêu cua của mình được phục vụ
 kèm với một bát mắm tôm. Bỡ ngỡ, mình liền hỏi N và T xem các bạn bình thường có hay ăn

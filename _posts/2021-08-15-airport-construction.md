@@ -11,7 +11,7 @@ tag:
 In this problem, we are given a polygon of $\leq 200$ vertices and the goal is
 to find the length of the longest segment that fits inside the polygon.
 
-![Sample example](/assets/images/airport-construction-wf.png){:.border.rounded}
+![Sample example]({{ site.baseurl }}/assets/img/airport-construction-wf.png){:.border.rounded}
 
 ### The intuition
 
