@@ -48,4 +48,4 @@ be at most two points lying on AB.
 If we sort those pairs of two points on line AB, we observe see that a possible
 answer can be the segment create of consecutive pairs of two points.
 
-(to be continue)
+(to be continue, or not)
