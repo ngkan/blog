@@ -5,11 +5,11 @@
 # Site
 title: ngkan is blogging
 subtitle: ''
-description: ''
+description: 'Math, programming and much more.'
 keywords:
-author: Kan N
+author:
 language: en
-timezone: ''
+timezone: 'UTC'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -31,7 +31,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year-:month-:day-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
@@ -99,6 +99,41 @@ ignore:
 theme: cactus
 theme_config:
   colorscheme: white
+  projects_url:
+  nav:
+    home: /
+    articles: /archives/
+    Tags: /tags/
+    Categories: /categories/
+    Search: /search/
+  social_links:
+  highlight: github
+  disqus:
+    enabled: true
+    shortname: https-ngkan146-github-io
+  copyright:
+    start_year: 2024
+    end_year:
+  posts_overview:
+    show_all_posts: false
+    post_count: 20
+  favicon:
+    desktop:
+      url: /images/favicon/favicon.ico
+      gravatar: false
+    android:
+      url: /images/favicon/favicon-192x192.png
+      gravatar: false
+    apple:
+      url: /images/favicon/apple-touch-icon.png
+      gravatar: false
+  page_width: 60
+  post:
+    show_updated: true
+  logo:
+    enabled: false
+  mathjax:
+    enabled: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
